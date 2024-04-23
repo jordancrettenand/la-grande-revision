@@ -5,15 +5,32 @@
   border-radius: 10px;
 }
 
-.article-title {
-  font-size: 30px;
-}
-
 .article-date {
   font-size: 16px;
   font-weight: 700;
 }
 
-.article-content {
-  font-size: 18px;
+.article-title {
+  font-weight: 100;
+}
+
+@media (min-width: 768px) {
+  .article-title {
+    font-size: 45px;
+  }
+
+  .article-content {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 968px) {
+  .article-title {
+    font-size: 60px;
+    font-weight: 400;
+  }
+
+  .article-date {
+    font-size: 24px;
+  }
 }
